@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylo.css">
+    <script src="js.js"></script>
+    <title>CALCULADORA-BASICA</title>
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="header">
+            <h3>Calculadora Básica</h3>
+        </div>
+    
+        <div class="input-section">
+            <label for="VALOR1">VALOR 1:
+                <input type="number" name="numero1" id="numero1" placeholder="Ingrese un número">
+            </label>
+            <label for="VALOR2">VALOR 2:
+                <input type="number" name="numero2" id="numero2" placeholder="Ingrese un número">
+            </label>
+            <label for="RESULTADO">RESULTADO
+                <input type="number" name="resultado" id="resultado" disabled placeholder="0.0">
+            </label>
+        </div>
+    
+        <div class="button-section">
+            <button onclick="sumar()">+</button>
+            <button onclick="restar()">-</button>
+            <button onclick="multiplicar()">X</button>
+            <button onclick="dividir()">%</button>
+        </div><button onclick="limpiar()" class="limpiar">Limpiar</button>
+          
+        </div>
+    </div>
+    
+
+
+</body>
+
+</html>
